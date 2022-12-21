@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TryAPI</string>
+    <string name="title_masukan_nomor_hp">title_masukan_nomor_hp</string>
+    <string name="title_buka_whatsapp">title_buka_whatsapp</string>
+</resources>

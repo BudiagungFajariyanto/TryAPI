@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editnama"
+        android:inputType="textPersonName"
+        android:hint="Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editemail"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/editnomor"
+        android:inputType="phone"
+        android:hint="No. Hp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:id="@+id/editpesan"
+        android:gravity="top"
+        android:hint="Alasan"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_marginTop="150dp"/>
+    <Button
+        android:id="@+id/btnkirim"
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kirim"/>
+</RelativeLayout>
